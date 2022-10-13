@@ -1,0 +1,35 @@
+.FormContainer {
+    width: 50%;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 20px;
+}
+.Form {
+    border: none;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10%;
+}
+.Label {
+    padding:0;
+    margin-bottom:4%;
+    font-weight: 500;
+}
+.Input {
+    width:100%;
+    outline:none;
+    padding:1%;
+    margin-bottom: 4%;
+    border: 1px solid grey;
+    border-radius:5px;
+}
+.SubmitButton {
+    width: 40%;
+    padding:1%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    background: #14F195;
+}

@@ -1,0 +1,14 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: black;
+    padding: 1.5%;
+    height: 80px;
+}
+
+.paragraph {
+    color: #ffff
+}
