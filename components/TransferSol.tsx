@@ -21,6 +21,11 @@ export const TransferSol: FC = () => {
             connection.getBalance(publicKey).then(balance => {
                 setBalance(balance / web3.LAMPORTS_PER_SOL)
             })
+        } else {
+            setBalance(undefined)
+            setAmount(0)
+            setRecipient("")
+            setShowLoader(false)
         }
     }, [connection, publicKey])
 
